@@ -1,16 +1,11 @@
-#### projeto-integrador
+#### Projeto Cruzeiro do sul
 Projeto Integrador Transdisciplinar em Ciência da Computação II
-
 
 
 ##### Tela de Login :
 
 
 ![Login](https://user-images.githubusercontent.com/43417699/204143586-77de8e1c-06e7-4df5-a37b-2f16379b29ff.png)
-
-##### Home :
-
-![bem vindo](https://user-images.githubusercontent.com/43417699/204143609-488c6031-491f-4ced-a2be-6538e331483b.png)
 
 ##### Cadastro de Usuário :
 
@@ -26,14 +21,14 @@ Projeto Integrador Transdisciplinar em Ciência da Computação II
 
 
 
-#### Como subir o projeto : 
+#### Como você abre o projeto e executa : 
 
-1 - Abra a pasta backend no intellj e dê o start na aplicação spring boot
+° Abra a pasta backend na IDE de sua preferencia e dê o start na aplicação springboot
 
-2 - Crie o seu banco e insira as tabelas : 
+° Crie o seu banco de preferencia mysql e insira as tabelas : 
 
 ```
-CREATE TABLE financas.usuario
+CREATE TABLE finance.usuario
 (
 	id bigserial NOT NULL PRIMARY KEY,
 	nome character varying(150),
@@ -58,9 +53,9 @@ data_cadastro date DEFAULT NOW()
 );
 ```
 
-3- Abra a pasta frontend no Visual studio Code ou sua IDE de preferencia!
+° Abra a pasta frontend no VSCode
 
-4- Abra o terminal dentro da raiz no VS, instale o npm => npm install
+° Abra o terminal dentro da raiz no VSCODE, instale o node com = npm install
 
-5- depois dê o start com => npm start
+° de o start com => npm start
 
